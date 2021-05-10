@@ -6,13 +6,20 @@
 }
 .gridbox1{
     display: grid;
-    background: red;
     gap: 10px;
     padding: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     
 }
+.gridbox2{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
 img{
     max-width: 100%;
 }
